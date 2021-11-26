@@ -7,7 +7,7 @@ console.log("2. Inch to Feet");
 console.log("3. Feet to Meter");
 console.log("4. Meter to Feet");
 
-let option = prompt("Select number to use Unit Converter: ");
+let option = parseInt(prompt("Select number to use Unit Converter: "));
 
 switch(option) {
 	case 1 :

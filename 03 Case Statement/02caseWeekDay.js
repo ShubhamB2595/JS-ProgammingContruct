@@ -1,7 +1,7 @@
 const ps = require("prompt-sync");
 const prompt = ps();
 
-let num = prompt("Enter number between 1 and 7: ");
+let num = parseInt(prompt("Enter number between 1 and 7: "));
 
 switch (num) {
 	case 1:
